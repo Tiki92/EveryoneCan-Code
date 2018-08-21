@@ -1,4 +1,42 @@
 {% include "webapp/header.html"%}
 
 
+    <div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Language</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+      {% for item in list_code %}
+    <tbody>
+      <tr>
+        <td><a href="{{ item.id}}">{{ item.Title }}</a></td>
+        <td>{{ item.Language }}</td>
+        <td>{{ item.Date }}</td>
+      </tr>
+    </tbody>
+      {% endfor %}
+  </table>
+</div>
+<div class="pagination">
+    <span class="step-links">
+        {% if list_code.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ list_code.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ list_code.number }} of {{ list_code.paginator.num_pages }}.
+        </span>
+
+        {% if list_code.has_next %}
+            <a href="?page={{ list_code.next_page_number }}">next</a>
+            <a href="?page={{ list_code.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+
 {% include "webapp/Footer.html"%}

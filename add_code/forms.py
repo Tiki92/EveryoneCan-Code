@@ -1,5 +1,5 @@
 from django.forms import ModelForm
-from .models import Code
+from add_code.models import Code
 
 class CodeForm(ModelForm):
     class Meta:

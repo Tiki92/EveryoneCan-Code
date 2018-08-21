@@ -1,8 +1,9 @@
-from django.urls import path
+from django.urls import path, re_path
 from . import views
-from django.conf.urls import url
+
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('webapp/Post', views.post_code, name='post_code'),
-]git
+    re_path(r'^(?P<code_id>\d+)/$', views.detailed),
+
+]
