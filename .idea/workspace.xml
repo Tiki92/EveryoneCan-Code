@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5285aafb-1835-4dd2-adcf-826db757e62b" name="Default" comment="" />
+    <list default="true" id="5285aafb-1835-4dd2-adcf-826db757e62b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/webapp/templates/webapp/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/templates/webapp/header.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +31,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1731" />
+          <entry key="html" value="1746" />
           <entry key="py" value="3548" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1731" />
+          <entry key="HTML" value="1746" />
           <entry key="Python" value="3548" />
         </counts>
       </usages-collector>
@@ -55,7 +57,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/templates/webapp/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
@@ -64,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/templates/webapp/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+            <state relative-caret-position="165">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
                 <element signature="e#2509#2516#0" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -147,13 +149,13 @@
         <option value="$PROJECT_DIR$/webapp/templates/webapp/detailed_view.html" />
         <option value="$PROJECT_DIR$/webapp/templates/webapp/search.html" />
         <option value="$PROJECT_DIR$/webapp/urls.py" />
-        <option value="$PROJECT_DIR$/webapp/templates/webapp/header.html" />
         <option value="$PROJECT_DIR$/webapp/views.py" />
         <option value="$PROJECT_DIR$/webapp/templates/webapp/home.html" />
+        <option value="$PROJECT_DIR$/webapp/templates/webapp/header.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="403" />
     <option name="y" value="77" />
     <option name="width" value="757" />
@@ -245,7 +247,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1533" height="875" extended-state="7" />
+    <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1410596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -399,18 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/templates/webapp/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-          <folding>
-            <element signature="e#2509#2516#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-74">
@@ -426,6 +417,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="31" column="78" lean-forward="true" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/templates/webapp/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#2509#2516#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
