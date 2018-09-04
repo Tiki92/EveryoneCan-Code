@@ -1,5 +1,6 @@
 # EveryoneCan-Code
-Code Database
+Code Database:
+
 -In the terminal:
 cd /EveryoneCanCode
 python3.6 manage.py runserver
