@@ -26,14 +26,6 @@ def detailed(request, code_id):
     post = Code.objects.get(id=code_id)
     return render(request, 'webapp/detailed_view.html', {'detail': detail, 'post': post})
 
-#def search(request):
-#    all_obj = Code.objects.all()
-#    query = request.GET.get('q', None)
-#    if query is not None:
-#        all_obj = all_obj.filer(
-#            Q(Title__icontains=query) |
-#            Q(Content__icontains=query))
-#    return render(request, 'webapp/search.html', {'all_obj': all_obj})
 
 
 
